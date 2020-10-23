@@ -1,0 +1,15 @@
+{
+	"namespace": "datamaking.avro",
+	"type": "record",
+	"name": "orders",
+	"fields": [
+		{"name": "order_id", "type": ["int", "null"]},
+		{"name": "order_product_name",  "type": ["string", "null"]},
+		{"name": "order_card_type", "type": ["string", "null"]},
+		{"name": "order_amount", "type": ["double", "null"]},
+		{"name": "order_datetime", "type": ["string", "null"]},
+		{"name": "order_country_name", "type": ["string", "null"]},
+		{"name": "order_city_name", "type": ["string", "null"]},
+		{"name": "order_ecommerce_website_name", "type": ["string", "null"]}
+	]
+}
